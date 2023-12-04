@@ -1,4 +1,15 @@
 #  Linux
+**update local package database**
+```
+sudo apt update
+sudo apt-get update
+```
+**install new versions of available packages**
+```
+sudo apt upgrade
+sudo apt-get upgrade
+```
+
 
 **print shell name**
 ```
@@ -57,4 +68,10 @@ scp -P port_number username@host_ip:/source_file_path destination_path
 rsync -avz source_directory username@host_ip:destination_directory
 ```
 
+```
+df // display information about disk space
+```
 
+```
+sudo apt install net-tools
+```

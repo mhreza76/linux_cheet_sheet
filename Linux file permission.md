@@ -21,11 +21,11 @@ x = 1
 
 
 
-![linux-permission-details.png](../_resources/linux-permission-details-2.png)
+![linux-permission-details.png](../_resources/linux-permission-details.png)
 
 
 
-![linux-permission.png](../_resources/linux-permission-2.png)
+![linux-permission.png](../_resources/linux-permission.png)
 
 
 - Default permission for directory created by **root**
@@ -40,7 +40,7 @@ x = 1
 
 **Soft Link**
 ```
-sudo ln -s source destination
+sudo ln -s source_absolute_path destination
 ```
 
 **Add permissions**
